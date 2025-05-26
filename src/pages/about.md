@@ -3,34 +3,112 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+# Nguyen Duc Duy
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+**Full Stack Developer**
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+📞 0363276246  
+📧 [duynd0909@gmail.com](mailto:duynd0909@gmail.com)  
+🎂 09-09-1999  
+📍 Ha Noi, Viet Nam
 
-<div>
-  <img src="/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
+---
 
-## Tech Stack
+## 🧾 Summary
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+Full Stack Developer with 5 years of experience in building scalable web applications. Skilled in system modernization, automation, and team leadership, with a focus on performance, reliability, and code quality. Fluent in English, with strong communication skills for effective collaboration across teams.
 
-## Features
+---
 
-Here are certain features of this site.
+## 💼 Experience
 
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
+### SE Operation System – WEEDS VINA
 
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+**Full Stack Developer** (03/2024 – Present)
+
+- Developed an automation system to streamline processes:
+  - Deployment and product upgrades
+  - Data collection and migration
+  - Server resource optimization
+  - Server monitoring and log visualization
+- Resulted in cost savings and reduced manual deployment efforts
+
+---
+
+### NPN Imaging Management System
+
+**Front-End Developer** (11/2024 – 02/2025)
+
+- Designed and developed the front-end of a workload management system using ReactJS
+
+---
+
+### Automation Testing Playwright – WEEDS VINA
+
+**Full Stack Developer** (12/2023 – 02/2024)
+
+- Implemented automation testing with Playwright
+- Integrated testing into CI/CD to reduce bugs and prevent regressions
+
+---
+
+### Board Plus Migration – WEEDS VINA
+
+**Full Stack Developer** (09/2023 – 12/2023)
+
+- Migrated internal system from JSP/Servlet to Vue.js 3
+- Enhanced performance and maintainability
+
+---
+
+### Data Migration System – WEEDS VINA
+
+**Full Stack Developer** (05/2023 – 09/2023)
+
+- Built a system to migrate customer databases into the platform
+- Supported multiple database types and created a drag-and-drop UI
+
+---
+
+### Timesheet Management System – CMC Global
+
+**Full Stack Developer & Team Leader** (12/2022 – 05/2023)
+
+- Built a time-tracking and reporting system using ReactJS and Spring Boot
+- Led code review, deployment, training, and performance evaluation
+- Set coding standards and tracked team compliance
+
+---
+
+### Logistics Tracking System – CMC Global
+
+**Full Stack Developer** (03/2022 – 11/2022)
+
+- Built a logistics tracking system with Java Spring Boot and VueJS
+
+---
+
+### Digital Resources Management System – FPT Software
+
+**Junior Developer** (03/2020 – 09/2022)
+
+- Developed systems to manage and reuse tools/code across FPT Software
+- Implemented reporting for tool usage tracking
+- Tech stack: Java Spring Boot, VueJS
+
+---
+
+## 🎓 Education
+
+**Bachelor’s in Software Engineering** (09/2017 – 09/2021)  
+FPT University
+
+- 50% Study Fee Scholarship
+
+---
+
+## 🛠 Skills
+
+- **Languages & Frameworks**: Java, TypeScript, HTML, CSS, SCSS, ReactJS, VueJS, AngularJS
+- **Databases**: PostgreSQL, MySQL, ElasticSearch, OpenSearch
+- **Tools**: Linux
