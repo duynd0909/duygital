@@ -2,7 +2,7 @@
 author: Sat Naing
 pubDatetime: 2022-09-25T15:20:35Z
 title: Customizing AstroPaper theme color schemes
-featured: false
+featured: true
 draft: false
 tags:
   - color-schemes
@@ -10,6 +10,7 @@ tags:
 description:
   How you can enable/disable light & dark mode; and customize color schemes
   of AstroPaper theme.
+ogImage: https://images.pexels.com/photos/159618/still-life-school-retro-ink-159618.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 ---
 
 This post will explain how you can enable/disable light & dark mode for the website. Moreover, you'll learn how you can customize color schemes of the entire website.

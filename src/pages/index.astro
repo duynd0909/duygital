@@ -14,7 +14,6 @@ import { SITE } from "@/config";
 import { SOCIALS } from "@/constants";
 
 const posts = await getCollection("blog");
-
 const sortedPosts = getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
@@ -43,9 +42,10 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       </a>
 
       <p>
-        I'm Duc Duy, a full-stack developer crafting solutions with Java on the backend and JavaScript on the frontend.
-        Duygital is my space to share practical code tips, project insights, architecture patterns, and hard-earned lessons from real-world development. 
-        Whether it's Spring Boot APIs, Vue or React interfaces, or devops scripts in between — if it runs on code, it has a place here.
+        Tôi là Đức Duy, một lập trình viên full-stack chuyên xây dựng giải pháp
+        với Java ở backend và JavaScript ở frontend. Duygital là không gian cá
+        nhân nơi tôi chia sẻ các tips lập trình thực tế, góc nhìn dự án, mẫu
+        kiến trúc và những bài học kinh nghiệm thực tế.
       </p>
       <!-- <p class="mt-2">
         Read the blog posts or check
@@ -60,7 +60,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         // only display if at least one social link is enabled
         SOCIALS.length > 0 && (
           <div class="mt-4 flex flex-col sm:flex-row sm:items-center">
-            <div class="mr-2 mb-1 whitespace-nowrap sm:mb-0">Social Links:</div>
+            <div class="mr-2 mb-1 whitespace-nowrap sm:mb-0">Liên kết:</div>
             <Socials />
           </div>
         )
@@ -73,7 +73,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       featuredPosts.length > 0 && (
         <>
           <section id="featured" class="pt-12 pb-6">
-            <h2 class="text-2xl font-semibold tracking-wide">Featured</h2>
+            <h2 class="text-2xl font-semibold tracking-wide">Nổi bật</h2>
             <ul>
               {featuredPosts.map(data => (
                 <Card variant="h3" {...data} />
@@ -88,7 +88,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     {
       recentPosts.length > 0 && (
         <section id="recent-posts" class="pt-12 pb-6">
-          <h2 class="text-2xl font-semibold tracking-wide">Recent Posts</h2>
+          <h2 class="text-2xl font-semibold tracking-wide">Bài viết gần đây</h2>
           <ul>
             {recentPosts.map(
               (data, index) =>
@@ -101,7 +101,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 
     <div class="my-8 text-center">
       <LinkButton href="/posts/">
-        All Posts
+        Xem thêm
         <IconArrowRight class="inline-block" />
       </LinkButton>
     </div>
