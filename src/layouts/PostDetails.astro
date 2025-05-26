@@ -13,7 +13,7 @@ import { slugifyStr } from "@/utils/slugify";
 import IconChevronLeft from "@/assets/icons/IconChevronLeft.svg";
 import IconChevronRight from "@/assets/icons/IconChevronRight.svg";
 import { SITE } from "@/config";
-
+import Comments from "@/components/Comments";
 export interface Props {
   post: CollectionEntry<"blog">;
   posts: CollectionEntry<"blog">[];
@@ -123,10 +123,16 @@ const nextPost =
         class="focus-outline py-1 whitespace-nowrap hover:opacity-75"
       >
         <IconChevronLeft class="inline-block rotate-90" />
-        <span>Back to Top</span>
+        <span>Lên đầu trang</span>
       </button>
     </div>
+    <!-- <hr class="my-6 border-dashed" />
 
+    <div
+      class="flex flex-col items-center justify-between gap-6 sm:flex-row sm:items-end sm:gap-4"
+    >
+      <Comments client:only="react" />
+    </div> -->
     <hr class="my-6 border-dashed" />
 
     <!-- Previous/Next Post Buttons -->
@@ -139,7 +145,7 @@ const nextPost =
           >
             <IconChevronLeft class="inline-block flex-none" />
             <div>
-              <span>Previous Post</span>
+              <span>Quay lại</span>
               <div class="text-sm text-accent/85">{prevPost.title}</div>
             </div>
           </a>
@@ -152,7 +158,7 @@ const nextPost =
             class="flex w-full justify-end gap-1 text-right hover:opacity-75 sm:col-start-2"
           >
             <div>
-              <span>Next Post</span>
+              <span>Tiếp theo</span>
               <div class="text-sm text-accent/85">{nextPost.title}</div>
             </div>
             <IconChevronRight class="inline-block flex-none" />
