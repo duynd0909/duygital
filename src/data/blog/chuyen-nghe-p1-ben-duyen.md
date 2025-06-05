@@ -4,7 +4,7 @@ author: duygital
 pubDatetime: 2025-05-26T01:37:31Z
 slug: example-draft-post
 featured: true
-draft: false
+draft: true
 tags:
   - TypeScript
   - Astro
