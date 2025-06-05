@@ -21,7 +21,7 @@ const headerProps = {
 <li class="my-6 flex items-start gap-4">
   <a href={getPath(id, filePath)} class="shrink-0">
     <img
-      src={ogImage || "/default-article.png"}
+      src={(ogImage as string) || "/default-article.png"}
       alt={`Thumbnail for ${title}`}
       class="h-28 w-28 rounded-md object-cover"
       loading="lazy"
